@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA774CDD1C46D67500EED88E /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA774CDC1C46D67500EED88E /* CounterViewController.swift */; };
 		FAF613F91C459CA100D320B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF613F81C459CA100D320B4 /* AppDelegate.swift */; };
 		FAF613FB1C459CA100D320B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF613FA1C459CA100D320B4 /* ViewController.swift */; };
 		FAF613FE1C459CA100D320B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF613FC1C459CA100D320B4 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA774CDC1C46D67500EED88E /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		FAF613F51C459CA100D320B4 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF613F81C459CA100D320B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF613FA1C459CA100D320B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				FAF613F81C459CA100D320B4 /* AppDelegate.swift */,
 				FAF613FA1C459CA100D320B4 /* ViewController.swift */,
+				FA774CDC1C46D67500EED88E /* CounterViewController.swift */,
 				FAF613FC1C459CA100D320B4 /* Main.storyboard */,
 				FAF613FF1C459CA100D320B4 /* Assets.xcassets */,
 				FAF614011C459CA100D320B4 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF613FB1C459CA100D320B4 /* ViewController.swift in Sources */,
+				FA774CDD1C46D67500EED88E /* CounterViewController.swift in Sources */,
 				FAF613F91C459CA100D320B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				FAF6141F1C459CA100D320B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF614201C459CA100D320B4 /* Build configuration list for PBXNativeTarget "CounterTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				FAF614221C459CA100D320B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAF614231C459CA100D320B4 /* Build configuration list for PBXNativeTarget "CounterUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				FAF614251C459CA100D320B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
