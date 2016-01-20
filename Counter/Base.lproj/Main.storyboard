@@ -35,6 +35,7 @@
                                 <rect key="frame" x="20" y="393" width="560" height="30"/>
                                 <state key="normal" title="Counter"/>
                                 <connections>
+                                    <action selector="ContunuouslyIncrement:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="h7V-uP-aVU"/>
                                     <action selector="Increment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DaM-t6-pHi"/>
                                 </connections>
                             </button>
