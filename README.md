@@ -1,8 +1,5 @@
 # SwiftCounter
 Counter for the purpose of learning Swift Programming Language V2.1
-It contains...
-- An iOS app 
-- A watchOS app
 
 #Requirements
 Developed and tested under:

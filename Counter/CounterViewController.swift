@@ -13,8 +13,6 @@ import Foundation
 class CounterViewController : UIViewController{
 
     @IBOutlet weak var Result: UILabel!
-    // This is the UILabel linked to the the number displayed on the screen.
-    
     
     var counter = 0
     
@@ -34,10 +32,6 @@ class CounterViewController : UIViewController{
     
     }
     
-    @IBAction func ContinuouslyIncrement(sender: AnyObject) {
-     
-          counter += 5
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

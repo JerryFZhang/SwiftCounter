@@ -9,24 +9,9 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Notification - WatchCounter.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>WatchCounter.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FA17302A1C503B640039177F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>FAF613F41C459CA100D320B4</key>
 		<dict>
 			<key>primary</key>
