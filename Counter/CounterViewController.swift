@@ -36,15 +36,7 @@ class CounterViewController : UIViewController{
     
     @IBAction func ContinuouslyIncrement(sender: AnyObject) {
      
-       
-        while(true){
-            
-            counter++
-            Result.text = String(counter)
-           
-        }
-        
-        NSLog("Updated")
+          counter += 5
     }
     
     override func viewDidLoad() {
