@@ -11,8 +11,12 @@ iOS 9.3
 Jerry Zhang(zhang96)
 
 # How to use
-
 Clone or download it as a zip, open the Xcode project file and build it using the simulator or your phone. Notice, it may atcually take longer period of time to get it build on your phone.
+
+- Tap to count
+- Touch and drag to count fastly
+- Tap "Reset" to clear
+
 
 # License
 This component is available under MIT license.
