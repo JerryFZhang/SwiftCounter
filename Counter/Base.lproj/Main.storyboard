@@ -19,36 +19,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jj-pz-zVz">
-                                <rect key="frame" x="20" y="115" width="560" height="75"/>
-                                <fontDescription key="fontDescription" name=".HelveticaNeueDeskInterface-UltraLightP2" family="SFNS Display" pointSize="100"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="20" y="103" width="560" height="119"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Light" family="PingFang TC" pointSize="144"/>
+                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSr-tA-N1p">
-                                <rect key="frame" x="24" y="20" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8m-8r-kYm">
+                                <rect key="frame" x="20" y="391" width="560" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Count!"/>
+                                <connections>
+                                    <action selector="ContinuouslyIncrement:" destination="BYZ-38-t0r" eventType="touchDragInside" id="iw8-zY-0EM"/>
+                                    <action selector="ContinuouslyIncrement:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="jS5-M8-Q3O"/>
+                                    <action selector="Increment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DaM-t6-pHi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSr-tA-N1p">
+                                <rect key="frame" x="20" y="20" width="556" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Reset"/>
                                 <connections>
                                     <action selector="Reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jJb-r6-SMb"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8m-8r-kYm">
-                                <rect key="frame" x="20" y="393" width="560" height="30"/>
-                                <state key="normal" title="Counter"/>
-                                <connections>
-                                    <action selector="ContinuouslyIncrement:" destination="BYZ-38-t0r" eventType="touchDragOutside" id="jS5-M8-Q3O"/>
-                                    <action selector="Increment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DaM-t6-pHi"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="leadingMargin" secondItem="1jj-pz-zVz" secondAttribute="leading" id="C1N-BV-YVU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1jj-pz-zVz" secondAttribute="bottom" constant="378" id="EQg-uR-3Ff"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R8m-8r-kYm" secondAttribute="trailing" id="KeE-zZ-lhG"/>
                             <constraint firstItem="1jj-pz-zVz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M9s-Xo-GoT"/>
-                            <constraint firstItem="R8m-8r-kYm" firstAttribute="top" secondItem="1jj-pz-zVz" secondAttribute="bottom" constant="203" id="Ou9-3B-iod"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1jj-pz-zVz" secondAttribute="bottom" constant="410" id="Rgr-Zg-fN5"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="R8m-8r-kYm" secondAttribute="bottom" constant="177" id="Y4e-Am-nJI"/>
-                            <constraint firstItem="1jj-pz-zVz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="95" id="jRK-wR-ABx"/>
+                            <constraint firstItem="1jj-pz-zVz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="83" id="Ug5-lk-B6L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1jj-pz-zVz" secondAttribute="trailing" id="ZrH-sp-YDz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="R8m-8r-kYm" secondAttribute="bottom" constant="176" id="dZf-mE-nwX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1jj-pz-zVz" secondAttribute="trailing" id="jay-Nt-3kE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="R8m-8r-kYm" secondAttribute="trailing" id="rcL-EA-fke"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="R8m-8r-kYm" secondAttribute="leading" id="wOK-OG-07u"/>
                             <constraint firstItem="R8m-8r-kYm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yiN-ES-V52"/>
                         </constraints>
                     </view>

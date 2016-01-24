@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA37AA571C5524BF00834CDF /* Font+MonospacedDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37AA561C5524BF00834CDF /* Font+MonospacedDigits.swift */; };
+		FA75A3F31C554001005213F6 /* 壹.png in Resources */ = {isa = PBXBuildFile; fileRef = FA75A3F21C554001005213F6 /* 壹.png */; };
 		FA774CDD1C46D67500EED88E /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA774CDC1C46D67500EED88E /* CounterViewController.swift */; };
 		FAF613F91C459CA100D320B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF613F81C459CA100D320B4 /* AppDelegate.swift */; };
 		FAF613FE1C459CA100D320B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF613FC1C459CA100D320B4 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		FA37AA561C5524BF00834CDF /* Font+MonospacedDigits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+MonospacedDigits.swift"; sourceTree = "<group>"; };
+		FA75A3F21C554001005213F6 /* 壹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "壹.png"; sourceTree = "<group>"; };
 		FA774CDC1C46D67500EED88E /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		FAF613F51C459CA100D320B4 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF613F81C459CA100D320B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		FAF613F71C459CA100D320B4 /* Counter */ = {
 			isa = PBXGroup;
 			children = (
+				FA75A3F21C554001005213F6 /* 壹.png */,
 				FA37AA561C5524BF00834CDF /* Font+MonospacedDigits.swift */,
 				FAF613F81C459CA100D320B4 /* AppDelegate.swift */,
 				FA774CDC1C46D67500EED88E /* CounterViewController.swift */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					FAF613F41C459CA100D320B4 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = C2SEXC743T;
 					};
 					FAF614081C459CA100D320B4 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -233,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF614031C459CA100D320B4 /* LaunchScreen.storyboard in Resources */,
+				FA75A3F31C554001005213F6 /* 壹.png in Resources */,
 				FAF614001C459CA100D320B4 /* Assets.xcassets in Resources */,
 				FAF613FE1C459CA100D320B4 /* Main.storyboard in Resources */,
 			);
@@ -403,10 +408,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Counter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -414,10 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Counter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
