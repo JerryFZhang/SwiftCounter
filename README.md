@@ -4,12 +4,15 @@ Counter for the purpose of learning Swift Programming Language V2.1
 By doing this I learnt:
 - Lable and buttons.
 - Different touch actions in iOS.
+- Launch Screen.
+- Overriding developer app name.
+- Monospaced font.
 
 #Requirements
 Developed and tested under:
-Swift 2.1 
-Xcode 7.2
-iOS 9.3
+- Swift 2.1 
+- Xcode 7.2
+- iOS 9.2.1
 
 #Author 
 Jerry Zhang(zhang96)
@@ -23,7 +26,6 @@ Clone or download it as a zip, open the Xcode project file and build it using th
 
 # Todos
 - Responsive font sizes.
-- Launch screen and App Icon(just a simple one).
 
 # License
 This component is available under MIT license.
