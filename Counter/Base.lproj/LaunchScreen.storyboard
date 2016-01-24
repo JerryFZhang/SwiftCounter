@@ -25,9 +25,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="壹" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tEK-Gr-auk">
-                                <rect key="frame" x="20" y="150" width="560" height="128"/>
+                                <rect key="frame" x="20" y="128" width="560" height="128"/>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="128"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -35,13 +35,12 @@
                         <constraints>
                             <constraint firstItem="tEK-Gr-auk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5FW-jt-h5H"/>
                             <constraint firstAttribute="leadingMargin" secondItem="tEK-Gr-auk" secondAttribute="leading" id="5vn-PG-ro5"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="tEK-Gr-auk" secondAttribute="bottom" constant="322" id="BdT-dL-B6v"/>
-                            <constraint firstItem="tEK-Gr-auk" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="130" id="DZC-lC-2dF"/>
                             <constraint firstItem="wxd-oL-O9X" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KSZ-6W-r8r"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tEK-Gr-auk" secondAttribute="trailing" id="aFS-XW-DU2"/>
                             <constraint firstItem="wxd-oL-O9X" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="505" id="gD8-RJ-p9d"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wxd-oL-O9X" secondAttribute="trailing" id="i26-kb-aob"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="wxd-oL-O9X" secondAttribute="bottom" constant="20" id="rFJ-67-MSx"/>
+                            <constraint firstItem="tEK-Gr-auk" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="108" id="ufZ-Pn-4RP"/>
                             <constraint firstAttribute="leadingMargin" secondItem="wxd-oL-O9X" secondAttribute="leading" id="x5R-81-2n4"/>
                         </constraints>
                     </view>
