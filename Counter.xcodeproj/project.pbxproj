@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA37AA571C5524BF00834CDF /* Font+MonospacedDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37AA561C5524BF00834CDF /* Font+MonospacedDigits.swift */; };
 		FA774CDD1C46D67500EED88E /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA774CDC1C46D67500EED88E /* CounterViewController.swift */; };
 		FAF613F91C459CA100D320B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF613F81C459CA100D320B4 /* AppDelegate.swift */; };
 		FAF613FE1C459CA100D320B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF613FC1C459CA100D320B4 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA37AA561C5524BF00834CDF /* Font+MonospacedDigits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+MonospacedDigits.swift"; sourceTree = "<group>"; };
 		FA774CDC1C46D67500EED88E /* CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		FAF613F51C459CA100D320B4 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF613F81C459CA100D320B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		FAF613F71C459CA100D320B4 /* Counter */ = {
 			isa = PBXGroup;
 			children = (
+				FA37AA561C5524BF00834CDF /* Font+MonospacedDigits.swift */,
 				FAF613F81C459CA100D320B4 /* AppDelegate.swift */,
 				FA774CDC1C46D67500EED88E /* CounterViewController.swift */,
 				FAF613FC1C459CA100D320B4 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA774CDD1C46D67500EED88E /* CounterViewController.swift in Sources */,
+				FA37AA571C5524BF00834CDF /* Font+MonospacedDigits.swift in Sources */,
 				FAF613F91C459CA100D320B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

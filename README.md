@@ -22,8 +22,7 @@ Clone or download it as a zip, open the Xcode project file and build it using th
 - Tap "Reset" to clear
 
 # Todos
-- Change the font to monospace, so the numbers stays in place.
-- Font size change to make it larger on larger iPhones.
+- Responsive font sizes.
 - Launch screen and App Icon(just a simple one).
 
 # License

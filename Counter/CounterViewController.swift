@@ -53,6 +53,9 @@ class CounterViewController : UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //Set lable to monospaced font. Using Font+MonospacedDigits.swift
+        Result.font = Result.font.monospacedDigitFont
     }
 
     override func didReceiveMemoryWarning() {
@@ -62,5 +65,8 @@ class CounterViewController : UIViewController{
     
 
 
+
 }
+
+
 
