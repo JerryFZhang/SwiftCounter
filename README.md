@@ -26,6 +26,7 @@ Clone or download it as a zip, open the Xcode project file and build it using th
 
 # Todos
 - Responsive font sizes.
+- Coloured buttons.
 
 # License
 This component is available under MIT license.
