@@ -200,13 +200,16 @@
 					FAF613F41C459CA100D320B4 = {
 						CreatedOnToolsVersion = 7.1.1;
 						DevelopmentTeam = C2SEXC743T;
+						LastSwiftMigration = 0810;
 					};
 					FAF614081C459CA100D320B4 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = FAF613F41C459CA100D320B4;
 					};
 					FAF614131C459CA100D320B4 = {
 						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = FAF613F41C459CA100D320B4;
 					};
 				};
@@ -415,6 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -429,6 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -440,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.CounterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counter.app/Counter";
 			};
 			name = Debug;
@@ -452,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.CounterTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Counter.app/Counter";
 			};
 			name = Release;
@@ -463,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.CounterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Counter;
 				USES_XCTRUNNER = YES;
 			};
@@ -475,6 +483,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Fengwei-Zhang.CounterUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Counter;
 				USES_XCTRUNNER = YES;
 			};
